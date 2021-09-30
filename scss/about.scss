@@ -1,0 +1,38 @@
+.about {
+  width: 100%;
+  height: 100%;
+  //background-color: paleturquoise;
+  background-image: linear-gradient(
+      to right,
+      rgba(31, 134, 138, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/Food-Trends-2021-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper {
+  .image-one {
+    background-image: url(../images/istockphoto-1264106963-170667a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin-left: 590px;
+  }
+  p {
+    font-family: AmBold;
+    color: pink;
+    font-size: 20px;
+  }
+  h1 {
+    font-family: AmBold;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: pink;
+  }
+}

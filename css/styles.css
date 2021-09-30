@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: AmBold;
+  src: url(../css/fonts/AmaticSC-Bold.ttf);
+}
+@font-face {
+  font-family: Amatic;
+  src: url(../css/fonts/AmaticSC-Regular.ttf);
+}
+nav {
+  height: 50px;
+  background-color: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: AmBold;
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(31, 134, 138, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/Food-Trends-2021-1.jpg);
+  background-image: linear-gradient(to right, rgba(31, 134, 138, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Food-Trends-2021-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  padding: 70px;
+}
+.wrapper p {
+  font-family: AmBold;
+  color: pink;
+  margin: 100px;
+  font-size: 25px;
+}
+.wrapper h1 {
+  font-family: AmBold;
+  font-size: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: pink;
+}
+
+.modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.bg-click {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.callout {
+  position: relative;
+  z-index: 99;
+  width: 600px;
+  height: 400px;
+  background-color: pink;
+}
+
+.login {
+  display: block;
+  width: 200px;
+}
+.login h1 {
+  position: relative;
+  left: 230px;
+  font-family: AmBold;
+  font-size: 60px;
+  color: white;
+}
+.login label {
+  position: relative;
+  left: 280px;
+  font-family: AmBold;
+  font-size: 30px;
+  color: white;
+}
+.login input {
+  position: relative;
+  left: 220px;
+  margin-top: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  padding: 12px 20px;
+}
+.login #submit {
+  font-family: AmBold;
+  background-color: pink;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.about {
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(31, 134, 138, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/Food-Trends-2021-1.jpg);
+  background-image: linear-gradient(to right, rgba(31, 134, 138, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Food-Trends-2021-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper .image-one {
+  background-image: url(../images/istockphoto-1264106963-170667a.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin-left: 590px;
+}
+.wrapper p {
+  font-family: AmBold;
+  color: pink;
+  font-size: 20px;
+}
+.wrapper h1 {
+  font-family: AmBold;
+  font-size: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: pink;
+}
